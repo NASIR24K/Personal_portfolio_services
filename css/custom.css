@@ -1,7 +1,6 @@
 *{
     padding: 0px;
     margin: 0px;
-    background-color:aliceblue;
 }
 .navbar{
     width: 100%;
@@ -20,5 +19,17 @@
   }
   .navbar a:hover {
     background-color: rgb(255, 255, 255);
-    box-sizing: border-box;
-  }
+    padding: 5px;
+.carousel-inner{
+    background-color:aliceblue;
+}
+
+.carousel-control-prev-icon{
+    padding: 0px;
+    margin-right: 160px;
+}
+.carousel-control-next-icon{
+    padding: 0px;
+    margin-left: 150px;
+}
+ 
