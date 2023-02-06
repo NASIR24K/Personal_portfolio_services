@@ -3,6 +3,81 @@
     margin: 0px;
     
 }
+.hero{
+  width: auto;
+  height: 600px;
+  background-color: linearGradient(rgba(4 4 5));
+ 
+}
+.header{
+    position: relative;
+}
+.main
+{
+display: inline-block;
+}
+.main .text
+{
+
+color: rgb(23, 21, 21);
+font-size: 60px;
+font-weight: 400;
+margin-top: 30px;
+margin-left: 50px;
+}
+.main .option
+{
+margin-left: 15px;
+height: 90px;
+line-height: 90px;
+overflow: hidden;
+}
+.option li
+{
+list-style: none;
+color: #face30;
+font-size: 60px;
+font-weight: 500;
+position: relative;
+top: 0;
+animation: slide 12s steps(4) infinite;
+}
+@keyframes slide
+{
+100%
+{
+top: -360px;
+}
+}
+.option li span
+{
+position: relative;
+margin: 5px 0;
+line-height: 90px;
+}
+.option li span::after
+{
+content: '';
+position: absolute;
+left: 0;
+height: 100%;
+width: 100%;
+background: #111;
+border-left: 2px solid #face30;
+animation: typing 3s steps(10) infinite;
+}
+@keyframes typing
+{
+40%, 60%
+{
+left: calc(100% + 30px);
+}
+100%
+{
+left: 0;
+}
+}
+
 .navbar{
     width: 100%;
     background-color: rgb(243, 212, 212);
@@ -35,3 +110,42 @@
     padding: 0px;
     margin-left: 150px;
 }
+/*about section css
+*/
+.both_image {
+    width: auto;
+    
+    position: relative;
+  }
+  
+  .both_image {
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+    height: 200px;
+    margin: 50px;
+  }
+  
+  .box {
+    position: absolute;
+    z-index: 1; /* gray box will be above both green and black box */
+    background: lightgray;
+    height: 60px;  
+    width: 70%;
+    left: 50px;
+    top: 50px;
+  }
+  
+  .box-2 {
+    position: absolute;
+    z-index: 2; /* green box will be above black box */
+    background: lightgreen;
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+  }
+
+
+/*end about section css
+*/
