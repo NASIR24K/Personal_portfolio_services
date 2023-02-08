@@ -6,8 +6,7 @@
 .hero{
   width: auto;
   height: 600px;
-  background-color: linearGradient(rgba(4 4 5));
- 
+  background-color:white;
 }
 .header{
     position: relative;
@@ -18,8 +17,7 @@ display: inline-block;
 }
 .main .text
 {
-
-color: rgb(23, 21, 21);
+color: black;
 font-size: 60px;
 font-weight: 400;
 margin-top: 30px;
@@ -28,7 +26,7 @@ margin-left: 50px;
 .main .option
 {
 margin-left: 15px;
-height: 90px;
+height: 80px;
 line-height: 90px;
 overflow: hidden;
 }
@@ -62,21 +60,23 @@ position: absolute;
 left: 0;
 height: 100%;
 width: 100%;
-background: #111;
+background: white;
 border-left: 2px solid #face30;
-animation: typing 3s steps(10) infinite;
+animation: animate 3s steps(10) infinite;
 }
-@keyframes typing
+@keyframes animate
 {
-40%, 60%
-{
-left: calc(100% + 30px);
+40%, 60%{
+    left: calc(100% + 30px);
 }
-100%
-{
-left: 0;
+
+100%{
+    left: 0px;
 }
 }
+
+
+
 
 .navbar{
     width: 100%;
@@ -149,3 +149,144 @@ left: 0;
 
 /*end about section css
 */
+/*Start services section*/
+.services
+{
+    position: relative;
+    text-align: center;
+    color: rgb(12, 9, 9);
+}
+.services_1
+ {
+        width: auto;
+        font-size: 50px;
+        font-weight: 500;
+        position: absolute;
+        line-height: 100px;
+        margin-top: 100px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+ }
+/*end services section*/
+/*Start skills section css
+*/
+.skills{
+    position: relative;
+    text-align: center;
+    color: rgb(12, 9, 9);
+    }
+    .skills_1 {
+        width: auto;
+        font-size: 50px;
+        font-weight: 500;
+        position: absolute;
+        line-height: 100px;
+        margin-top: 40px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+/*end skills section css
+*/
+
+/*Start resume section*/
+.resume{
+    position: relative;
+    text-align: center;
+    color: rgb(12, 9, 9);
+    }
+.resume_1 
+{
+        font-size: 70px;
+        font-weight: 500;
+        position: absolute;
+        line-height: 100px;
+        margin-top: 100px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+/*end resume section*/
+/*Start portfolio section css
+*/
+.portfolio{
+box-sizing: border-box;
+position: relative;
+text-align: center;
+color: rgb(12, 9, 9);
+}
+.portfolio_1 {
+    font-size: 70px;
+    font-weight: 500;
+    position: absolute;
+    line-height: 100px;
+    margin-top: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  Mycontainer{
+    padding-top: 5px;   
+}
+.row{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.WebApplication {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .pro_name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }  
+  /*end portfolio section*/
+  /*Start services section*/
+.contact
+{
+    position: relative;
+    text-align: center;
+    color: rgb(12, 9, 9);
+}
+.contact_1
+ {
+        width: auto;
+        font-size: 50px;
+        font-weight: 500;
+        position: absolute;
+        line-height: 100px;
+        margin-top: 50px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+ }
+/*end services section*/
+/*Start about section*/
+.about_1
+{
+    position: relative;
+    text-align: center;
+    color: rgb(12, 9, 9);
+}
+.about_1
+ {
+        width: auto;
+        font-size: 50px;
+        font-weight: 500;
+        position: absolute;
+        line-height: 100px;
+        margin-top: 100px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+ }
+/*end about section*/
+
+
