@@ -1,50 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Grid row -->
+<div class="row">
 
+    <!-- Grid column -->
+    <div class="col-md-12 d-flex justify-content-center mb-5">
+  
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="all">All</button>
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="1">WebApplication</button>
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="2">WebDevelopment</button>
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="3">WebDesign</button>
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="4">Web</button>
+  
+    </div>
+    <!-- Grid column -->
+  
+  </div>
+  <!-- Grid row -->
+    <div class="row mt-5 d-grid d-flex" id="portfolio">
+        <div class="data col-md-3 WebApplication d-inline pt-2 all 1">
+            <img src="images/beauty.jpg" class="web_img" style="width: 300px; height: 300px; border: 20px solid gray;" alt="">
+            <a href="#" class="pro_name" style="text-decoration: none;">Project Name</a>
+        </div>
+        <div class="data col-md-3 WebApplication d-inline pt-2  all 1">
+          <img src="images/beauty.jpg" class="web_img" style="width: 300px; height: 300px; border: 20px solid gray;" alt="">
+          <a href="#" class="pro_name" style="text-decoration: none;">Project Name</a>
+      </div>
+        <div class="data col-md-3 WebDevelopment d-inline pt-2  all 2">
+          <img src="images/beauty.jpg" class="web_img" style="width: 300px; height: 300px; border: 20px solid gray;" alt="">
+          <a href="#" class="pro_name" style="text-decoration: none;">Project Name</a>
+      </div> 
+        <div class="data col-md-3 WebDevelopment d-inline pt-2  all 1">
+          <img src="images/beauty.jpg" class="web_img" style="width: 300px; height: 300px; border: 20px solid gray;" alt="">
+          <a href="#" class="pro_name" style="text-decoration: none;">Project Name</a>
+      </div>
 
-/* Start portfolio javascript..*/
+      <div class="data col-md-3 WebDesign d-grid d-inline pt-2  all 3">
+        <img src="images/beauty.jpg" class="web_img" style="width: 300px; height: 300px; border: 20px solid gray;" alt="">
+        <a href="#" class="pro_name" style="text-decoration: none;">Project Name</a>
+      </div>   
+      <div class="data col-md-3 WebDesign d-grid d-inline pt-2  all 3">
+        <img src="images/beauty.jpg" class="web_img" style="width: 300px; height: 300px; border: 20px solid gray;" alt="">
+        <a href="#" class="pro_name" style="text-decoration: none;">Project Name</a>
+      </div>
+      <div class="data col-md-3 WEB d-grid d-inline pt-2  all 4">
+        <img src="images/beauty.jpg" class="web_img" style="width: 300px; height: 300px; border: 20px solid gray;" alt="">
+        <a href="#" class="pro_name" style="text-decoration: none;">Project Name</a>
+      </div>
+      <div class="data col-md-3 WEB d-grid d-inline pt-2  all 4">
+        <img src="images/beauty.jpg" class="web_img" style="width: 300px; height: 300px; border: 20px solid gray;" alt="">
+        <a href="#" class="pro_name" style="text-decoration: none;">Project Name</a>
+      </div>
+    </div>
+    <div class="mb-3 pics animation all 2">
+      <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" alt="Card image cap">
+    </div>
+<script type="text/javascript" src="js/portfolio.js"></script>
+<script type="text/javascript" src="js/bootstrap-icons.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
 
-portfolio_show("all")
-function portfolio_show(c) {
-  var x, i;
-  x = document.getElementsByClassName("col-md-3");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
-
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
-
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);     
-    }
-  }
-  element.className = arr1.join(" ");
-}
-
-
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("Mycontainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
-
-
-/* end portfolio javascript..*/

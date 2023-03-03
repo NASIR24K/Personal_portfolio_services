@@ -1,0 +1,74 @@
+font-family: 'Roboto', sans-serif;
+}
+.gallery-title {
+	font-size: 36px;
+	color: #c51403;
+	text-align: center;
+	font-weight: 500;
+	margin-bottom: 70px;
+	font-family: 'Roboto', sans-serif;
+}
+.gallery-title:after {
+	content: "";
+	position: absolute;
+	width: 38%;
+	left: 31%;
+	height: 50px;
+	border-bottom: 1px solid #c51403;
+}
+.filter-btn {
+	border: none;
+	outline: none;
+	padding: 10px 16px;
+	background-color: #104e99;
+	cursor: pointer;
+	font-size: 18px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+.active, .filter-btn:hover {
+	background-color: #c51403;
+	color: white;
+}
+.port-image {
+	width: 100%;
+}
+.galleryImg {
+	margin-bottom: 0px;
+}
+
+.img-thumb {
+	width: 100%;
+		  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.galleryImg:hover .img-thumb {
+  opacity: 0.3;
+}
+
+.galleryImg:hover .middle {
+  opacity: 1;
+}
+.zoomIcon {
+  background-image: url("../images/zoomIcon.png");
+	background-repeat: no-repeat;
+  color: white;
+  font-size: 16px;
+  padding: 7px 20px;
+}
+.pd {
+	padding: 2px;
+}

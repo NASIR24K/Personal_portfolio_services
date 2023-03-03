@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto_text_js_header</title>
+    <link rel="stylesheet" href="css/auto_text_header.css">
+</head>
+<body>
+    
+    <div class="back-video">
+        <video class="video-fluid" autoplay loop muted>
+            <source src="video/video.mp4" type="video/mp4" />
+          </video>
+    </div>
+    <div class="container">
+        <span class="text first-text">Hi, <br> MD NASIR UDDIN <br> I'm a</span>
+        <span class="text sec-text" style="overflow: hidden;">Full-Stack Web Developer</span>
+    </div>
+     
+    <script>
+        const text = document.querySelector(".sec-text");
+        const textLoader= () => {
+            setTimeout(() => {
+                text.textContent = "Full-Stack Web Developer";
+            }, 0);
+            setTimeout(() => {
+                text.textContent = "Front-end Developer";
+            }, 4000);
+            setTimeout(() => {
+                text.textContent = "Programmer";
+            }, 8000);
+            setTimeout(() => {
+                text.textContent = "Back-end Developer";
+            }, 12000);
+            setTimeout(() => {
+                text.textContent = "Freelancer";
+            }, 16000);
+        }
+
+        textLoader();
+        setInterval(textLoader, 20000);
+    </script>
+</body>
+</html>
