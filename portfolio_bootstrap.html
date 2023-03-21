@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio bootstrap </title>
-    <link  href="css/portfolio_bootstrap.css" rel="stylesheet" type="text/css" >
-    <link  href="css/bootstrap.min.css" rel="stylesheet" type="text/css" >
+    <title>bootstrap gallery</title>
+<link rel="stylesheet" href="css/portfolio_bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+ 
 </head>
 <body>
     <section class="testimonial py-3" id="testimonial">
@@ -16,8 +18,8 @@
                     <h1 class="gallery-title">Bootstrap Portfolio gallery</h1>
                 </div>
                 <div align="center" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-3">
-                    <div id="myDIV">
-                        <button class="filter-btn active" data-filter="all">All</button>
+                    <div id="myDIV" class="button-group filter-button-group">
+                        <button class="filter-btn active" data-filter="all" >All</button>
                         <button class="filter-btn" data-filter="Category-1">Category-1</button>
                         <button class="filter-btn" data-filter="Category-2">Category-2</button>
                         <button class="filter-btn" data-filter="Category-3">Category-3</button>
@@ -25,120 +27,117 @@
                     </div>
                 </div>
                 <div class="galleryImg col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Category-1 pd">
-                    <a href="images/beauty.jpg" rel="prettyPhoto[gallery1]" title="Download Pretty Photo Gallery">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#port_modal" >
+                        
                         <img src="images/beauty.jpg" class="img-thumb" alt="Download Pretty Photo Gallery" />
-                        <div class="middle"><span class="zoomIcon"></span></div>
+                        <div class="middle"><a class="zoomIcon"></a></div>
                     </a>
+          
+  <!-- Modal -->
+  <div class="modal fade" id="port_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+                    </div>
+
+                    <div class="galleryImg col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Category-4 pd">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#port_modal" >
+                            
+                            <img src="images/beauty.jpg" class="img-thumb" alt="Download Pretty Photo Gallery" />
+                            <div class="middle"><span class="zoomIcon">Look p.name Details</span></div>
+                        </a>
+              
                 </div>
-    
-                <div class="galleryImg col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Category-2 pd">
-                    <a href="images/beauty.jpg" rel="prettyPhoto[gallery1]">
-                        <img src="images/beauty.jpg" class="img-thumb" alt="Download Pretty Photo Gallery" />
-                        <div class="middle"><span class="zoomIcon"></span></div>
-                    </a>
-                </div>
-    
-                <div class="galleryImg col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Category-1 pd">
-                    <a href="images/beauty.jpg" rel="prettyPhoto[gallery1]">
-                        <img src="images/beauty.jpg" class="img-thumb" alt="Download Pretty Photo Gallery" />
-                        <div class="middle"><span class="zoomIcon"></span></div>
-                    </a>
-                </div>
-    
+ 
                 <div class="galleryImg col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Category-3 pd">
-                    <a href="images/beauty.jpg" rel="prettyPhoto[gallery1]"><img src="images/thumbnails/4.jpg" class="img-thumb" alt="Download Pretty Photo Gallery" /></a>
-                </div>
-    
-                <div class="galleryImg col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Category-4 pd">
-                    <a href="images/beauty.jpg" rel="prettyPhoto[gallery1]">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#port_modal" >
+                        
                         <img src="images/beauty.jpg" class="img-thumb" alt="Download Pretty Photo Gallery" />
-                        <div class="middle"><span class="zoomIcon"></span></div>
+                        <div class="middle"><span class="zoomIcon">Look p.name Details</span></div>
                     </a>
-                </div>
-    
-                <div class="galleryImg col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Category-2 pd">
-                    <a href="images/beauty.jpg" rel="prettyPhoto[gallery1]">
-                        <img src="images/beauty.jpg" class="img-thumb" alt="Download Pretty Photo Gallery" />
-                        <div class="middle"><span class="zoomIcon"></span></div>
-                    </a>
-                </div>
-    
-                <div class="galleryImg col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Category-1 pd">
-                    <a href="images/beauty.jpg" rel="prettyPhoto[gallery1]">
-                        <img src="images/beauty.jpg" class="img-thumb" alt="Download Pretty Photo Gallery" />
-                        <div class="middle"><span class="zoomIcon"></span></div>
-                    </a>
-                </div>
-    
-                <div class="galleryImg col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Category-4 pd">
-                    <a href="images/beauty.jpg" rel="prettyPhoto[gallery1]">
-                        <img src="images/beauty.jpg" class="img-thumb" alt="Download Pretty Photo Gallery" />
-                        <div class="middle"><span class="zoomIcon"></span></div>
-                    </a>
-                </div>
-    
-                <div class="galleryImg col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Category-1 Category-3 pd">
-                    <a href="images/beauty.jpg" rel="prettyPhoto[gallery1]">
-                        <img src="images/beauty.jpg" class="img-thumb" alt="Download Pretty Photo Gallery" />
-                        <div class="middle"><span class="zoomIcon"></span></div>
-                    </a>
-                </div>
+          
+            </div>
+            <div class="galleryImg col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Category-2 pd">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
+                    
+                    <img src="images/beauty.jpg" class="img-thumb" alt="Download Pretty Photo Gallery" />
+                    <div class="middle"><span class="zoomIcon">Look p.name Details</span></div>
+                </a>
+      
+        </div>
+
             </div>
         </div>
     </section>
-    <section class="testimonial py-2" style="border-top: 1px solid #e6e1e1;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-9 py-3 shadow-sm"></div>
-                <div class="col-md-3 py-3 shadow-sm"></div>
+  
+
+   
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Understood</button>
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
+     
     
-    <script>
-        $(document).ready(function(){
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/bootstrap.bundle.min.js"></script>
+ <script src="js/jquery-3.6.0.min.js"></script>
+ <script src="js/jquery.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+ <script>
+    $(document).ready(function(){
+    
+        $(".filter-btn").click(function(){
+    const value = $(this).attr('data-filter');
+    if(value == "all")
+    {
+        $('.filter').show('1000');
+    }
+    else
+    {
+        $(".filter").not('.'+value).hide('3000');
+        $('.filter').filter('.'+value).show('3000');
         
-            $(".filter-btn").click(function(){
-        var value = $(this).attr('data-filter');
-        if(value == "all")
-        {
-            $('.filter').show('1000');
-        }
-        else
-        {
-            $(".filter").not('.'+value).hide('3000');
-            $('.filter').filter('.'+value).show('3000');
-            
-        }
-            });
-        
+    }
         });
-        
-        var btnfilter = document.getElementById("myDIV");
-        var btns = btnfilter.getElementsByClassName("filter-btn");
-        for (var i = 0; i < btns.length; i++) {
-          btns[i].addEventListener("click", function() {
-            var current = document.getElementsByClassName("active");
-            current[0].className = current[0].className.replace(" active", "");
-            this.className += " active";
-          });
-        }
-        </script> 
-        
-        <script type="text/javascript" charset="utf-8">
-        
-            $(document).ready(function(){
-        $("area[rel^='prettyPhoto']").prettyPhoto();
-        
-        $(".gallery:first a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'light_square',slideshow:3000, autoplay_slideshow: true});
-        $(".gallery:gt(0) a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'fast',slideshow:10000, hideflash: true});
-         });
-        </script>
-     <link  href="css/bootstrap.min.css" rel="stylesheet" type="text/css" >
-    <script src="js/portfolio_bootstrap.js" type="text/javascript"></script>
-    <script src="js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
-    <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
-    <script src="js/jquery.min.js" type="text/javascript"></script>    
+    
+    });
+    
+    var btnfilter = document.getElementById("myDIV");
+    var btns = btnfilter.getElementsByClassName("filter-btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+ </script> 
 </body>
 </html>

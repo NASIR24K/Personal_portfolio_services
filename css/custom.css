@@ -21,8 +21,8 @@
 }
 
 .nav_bar{
-  padding-top: 15px;
-    float:right;
+     padding-top: 10px;
+    float: right;
     text-align: center;
     width: 100%;
     overflow: hidden;
@@ -30,12 +30,12 @@
     
 }
 .navbar a {
-    float: right;
+    float: left !important;
     text-align: center;
     padding: 10px 5px 10px 5px;
     color: #131313;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 700;
   }
   .navbar a:hover {
@@ -119,8 +119,8 @@ animation: animate 4s steps(12) infinite;
   width: 100%;
   height: 50px;
   text-align: left;
-  font-size:  18px;
-  text-align: justify;
+  font-size:  14px;
+  text-align: center;
  }
 /*end services section*/
 
@@ -306,8 +306,9 @@ color: rgb(12, 9, 9);
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  Mycontainer{
-    padding-top: 5px;   
+ #Mycontainer{
+    padding-top: 5px;
+    margin: 0 auto;   
 }
 .row{
     width: 100%;
@@ -328,6 +329,41 @@ color: rgb(12, 9, 9);
     display: none;
   }  
   /*end portfolio section*/
+#port_gellery{
+  padding: 100px;
+  margin: o auto;
+}
+.gellery_title{
+  font-size: 48px;
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  padding: 40px 20px 50px;
+}
+.filter-button{
+  font-size: 18px;
+  border: 5px solid black;
+  border-radius: 3px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 30px;
+}
+.filter-button:hover{
+  font-size: 20px;
+  border: 2px solid gray;
+  text-align: center;
+  color: #000;
+  background-color: #ddd;
+}
+.btn-default:active .filter-button:active{
+  background-color: gold;
+  color: #fdf8f8;
+}
+.gallery_product{
+  margin-bottom: 30px;
+  border: 1px solid gray;
+}
+
   /*Start services section*/
 .contact
 {

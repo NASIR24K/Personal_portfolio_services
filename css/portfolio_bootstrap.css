@@ -1,4 +1,5 @@
-font-family: 'Roboto', sans-serif;
+body {
+	font-family: 'Roboto', sans-serif;
 }
 .gallery-title {
 	font-size: 36px;
@@ -39,7 +40,7 @@ font-family: 'Roboto', sans-serif;
 
 .img-thumb {
 	width: 100%;
-		  opacity: 1;
+ opacity: 1;
   display: block;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -57,17 +58,18 @@ font-family: 'Roboto', sans-serif;
 }
 .galleryImg:hover .img-thumb {
   opacity: 0.3;
+  border: 2px solid gray;
 }
 
 .galleryImg:hover .middle {
   opacity: 1;
 }
 .zoomIcon {
-  background-image: url("../images/zoomIcon.png");
-	background-repeat: no-repeat;
-  color: white;
-  font-size: 16px;
-  padding: 7px 20px;
+  background-repeat: no-repeat;
+  color:black;
+  font-size: 24px;
+  text-align: center;
+  padding: 2px 2px;
 }
 .pd {
 	padding: 2px;
