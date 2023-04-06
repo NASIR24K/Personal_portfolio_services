@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "css"
+		},
+		{
+			"path": "images"
+		},
+		{
+			"path": "js"
+		},
+		{
+			"path": "node_modules"
+		},
+		{
+			"path": "vendor"
+		},
+		{
+			"path": "video"
+		}
+	]
+}
