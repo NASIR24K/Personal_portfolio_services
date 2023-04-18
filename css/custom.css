@@ -8,42 +8,6 @@
     font-family: 'Poppins', sans-serif;
   }
 
-.nav_manu{
-  position: relative;
-  width: 100%;
-  height: auto;
-  background-attachment: fixed;
-}
-.nav_icon{
-  width: 100%;
-  padding-bottom: 10px;
-  height: 100px;
-}
-
-.nav_bar{
-     padding-top: 10px;
-    float: right;
-    text-align: center;
-    width: 100%;
-    overflow: hidden;
-    justify-content: end;
-    
-}
-.navbar a {
-    float: left !important;
-    text-align: center;
-    padding: 10px 5px 10px 5px;
-    color: #131313;
-    text-decoration: none;
-    font-size: 21px;
-    font-weight: 700;
-  }
-  .navbar a:hover {
-    background-color: #1bd321;
-    color: #131313;
-    padding: 10px;
-    border-radius: 25%;
-  }
 
   /*section header auto text*/
 .hero{
@@ -52,9 +16,7 @@
   height: 600px;
   background-color: #fff;
 }
-.header{
-    position: relative;
-}
+
 .auto_text{
   top: 25%;
   padding-top: 100px;
@@ -104,12 +66,8 @@ animation: animate 4s steps(12) infinite;
 }
 .services_1
  {
-        width: auto;
-        font-size: 50px;
-        font-weight: 500;
+        width: 100%;
         position: absolute;
-        line-height: 100px;
-        margin-top: 100px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -117,12 +75,69 @@ animation: animate 4s steps(12) infinite;
  }
  .services_1 span{
   width: 100%;
-  height: 50px;
-  text-align: left;
-  font-size:  14px;
-  text-align: center;
  }
 /*end services section*/
+
+/*Start skills section css
+*/
+.skills{
+  position: relative;
+    text-align: center;
+    color: #000;
+  }
+  .skills_1 {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+/*end skills section css*/
+/*Start resume section*/
+.resume{
+  position: relative;
+  text-align: center;
+  color: #000;
+  }
+.resume_1 
+{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*end resume section*/
+/*Start reviews section*/
+.testimonials{
+  position: relative;
+  text-align: center;
+  color: #000;
+  }
+.testimonials_1 
+{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*end reviews section*/
+/*Start blogs section*/
+.blogs{
+  position: relative;
+  text-align: center;
+  color: #000;
+  }
+.blogs_1 
+{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*end blogs section*/
 
 .carousel-inner{
     background-color:aliceblue;
@@ -176,45 +191,7 @@ animation: animate 4s steps(12) infinite;
 /*end about section css
 */
 
-/*Start skills section css
-*/
-.skills{
-    position: relative;
-    text-align: center;
-    color: rgb(12, 9, 9);
-    }
-    .skills_1 {
-        width: auto;
-        font-size: 50px;
-        font-weight: 500;
-        position: absolute;
-        line-height: 100px;
-        margin-top: 40px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-/*end skills section css
-*/
 
-/*Start resume section*/
-.resume{
-    position: relative;
-    text-align: center;
-    color: rgb(12, 9, 9);
-    }
-.resume_1 
-{
-        font-size: 70px;
-        font-weight: 500;
-        position: absolute;
-        line-height: 100px;
-        margin-top: 100px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-}
-/*end resume section*/
 /*Start portfolio section css
 */
 * {
@@ -372,20 +349,16 @@ color: rgb(12, 9, 9);
     color: rgb(12, 9, 9);
 }
 .contact_1
- {
-        width: auto;
-        font-size: 50px;
-        font-weight: 500;
+ {  
+        width: 100%;
         position: absolute;
-        line-height: 100px;
-        margin-top: 50px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
  }
 /*end services section*/
 /*Start about section*/
-.about_1
+.about
 {
     position: relative;
     text-align: center;
@@ -393,54 +366,13 @@ color: rgb(12, 9, 9);
 }
 .about_1
  {
-        width: auto;
-        font-size: 50px;
-        font-weight: 500;
+        width: 100%;
         position: absolute;
-        line-height: 100px;
-        margin-top: 100px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
  }
- .section-about{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  margin-bottom: 100px;
-}
-.sec-about{
-  width: 100%;
-  height: 200px;
-}
-.about-info{
-  height: 450px;
-  border-bottom: 2px solid #000;
-}
-.about-subtitle{
-font-size: 48px;
-margin-top: 20px;
-font-family: sans-serif;
-font-style: bold;
-font-weight: 500px;
-}
-.about_title{
-  font-size: 36px;
-  margin: 5px;
-  padding: 5px;
-}
 
-.info-about{
-  width: 100%;
-  height: 100px;
-}
-.info-about .single-info{
-  font-size: 18px;
-
-}
 .follow_us{
   font-size: 18px;
   color: #000;
@@ -452,12 +384,10 @@ font-weight: 500px;
   border-radius: 5%;
 }
 .follow_us ul li span:hover{
-  color: #5ee95e;
+  color: #0bf50b;
   
 }
-.person-info .exp{
-  border-right: 2px solid #000;
-}
+
 /*end about section*/
 
 
