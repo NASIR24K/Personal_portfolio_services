@@ -4,6 +4,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    background-color:none !important;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
   }
