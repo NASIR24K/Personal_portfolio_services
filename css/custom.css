@@ -59,8 +59,13 @@ animation: animate 4s steps(12) infinite;
 /*end section header auto text
 */
 /*Start services section*/
+.service
 {
+  position: relative;
+  text-align: center;
+  color: #000;
 }
+.service_1
  {
   width: 100%;
   position: absolute;
