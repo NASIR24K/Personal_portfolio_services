@@ -10,6 +10,9 @@
     <link  href="css/contact.css" rel="stylesheet">
     <link href="css/bootstrap.min.css"  rel="stylesheet">
     <link rel="stylesheet" href="css/all.css">
+    <!--asos library css-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--asos library css-->
     <link  href="css/portfolio.css" rel="stylesheet" type="text/css">
     <link  href="css/bootstrap.min.css" rel="stylesheet" type="text/css" >
     <link  href="css/swiper-bundle.min.css" rel="stylesheet" type="text/css">
@@ -21,8 +24,8 @@
 </head>
 <body>
       <!--main navbar manu  -->
-    <nav class="navbar   navbar-expand-sm navbar-light bg-light fixed-top justify-content-center">                     
-      <div class="container-fluid">
+    <nav class="navbar   navbar-expand-sm navbar-light bg-light fixed-top">                     
+      <div class="container-fluid bg-primary justify-content-between">
           <a href="#" class="navbar-brand">
             <img src="images/support.png" style="width: 50px; border-radius: 50%;" class="d-inline-block align-text-top">
             NFSoft
@@ -31,7 +34,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item">
                <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
@@ -70,7 +73,7 @@
   <section id="home">
   <div class="container-fluid hero">
     <div class="row header">
-        <div class="col-lg-6 col-md-12 col-sm-12"> 
+        <div class="col-lg-6 col-md-12 col-sm-12" > 
            <div class="auto_text mb-4">
               <span class="text first-text text-center">Welcome, <br> MD NASIR UDDIN <br> I'm a</span>
               <span class="text sec-text" style="overflow: hidden;">Full-Stack Web Developer</span>
@@ -80,14 +83,14 @@
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. In quia eligendi quasi non culpa sunt nulla, accusamus dignissimos provident commodi!
              </div>
 
-             <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-between mt-5" >
-              <div class=" d-flex d-inline gap-2 ">
+             <div class="col-lg-6 col-md-6 col-sm-12 d-flex  mt-5" >
+              <div class=" d-flex d-inline justify-space-between gap-2 ">
                 <a href="#" class="btn  btn-outline-info" style="border-radius: 50%;"><i class="bi bi-skype"></i></a>
                 <a href="#" class="btn  btn-outline-info" style="border-radius: 50%;"><i class="bi bi-linkedin"></i></a>
                 <a href="#" class="btn  btn-outline-info" style="border-radius: 50%;"><i class="bi bi-envelope"></i></a>
                 <a href="#" class="btn  btn-outline-info" style="border-radius: 50%;"><i class="bi bi-github"></i></a>
              </div>
-             <div class="d-flex gap-2">
+             <div class="d-flex justify-content-between gap-2">
                  <a href="#" class="btn btn-outline-info p-2 " style="width: 100px;">download</a>
                  <a href="#" class="btn btn-outline-info p-2 " style="width: 100px;">my skills</a>
               </div>
@@ -117,16 +120,16 @@
   <!--end section header auto text  -->
 <!-- services section-->
 <section id="services" style="background-color: #fef4f4;">
- <div class="services container-fluid mt-5 p-4 col-lg-12 col-md-12 col-sm-12" style=" width: 100%; height: 200px;">
-  <p class=" text text-center text-uppercase" style="opacity: 0.02; font-size: 12vw;">Services</p>
-  <div class="services_1 col-lg-12 col-md-12 col-sm-12">
-    <p class="text text-center text-uppercase fs-1 mt-5" style="font-family: cursive;"> What I do my Robust <br> Services</p>
-    <span class="text fs-6"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, laboriosam.</span>
+
+<div class="col-lg-12 col-md-12 col-sm-12 mt-5 service" style="height: 300px;" data-aos="fade-up">
+  <p class="text-center" style="opacity: 0.02; font-size: 12vw; ">Services</p>
+  <div class="col-lg-12 col-md-12 col-sm-12 service_1">
+    <span class="text-center fs-1" style="font-family: cursive;"> What I do my Robust <br> Services</span>
+    <p class="text fs-6">Lorem ipsum dolor sit. Lorem, ipsum dolor.</p>
   </div>
 </div>
-    <div class="container-fluid mt-5 mb-5">
-        <div class="row mb-5">
-          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+    <div class="container-fluid row">
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-5" data-aos="fade-up">
             <div id="card" class="card shadow rounded border-0 object-fit-fill" style="width: 100%; height: 400px; background-color:white;">
                 <div class="header p-2  text-center"><i class="fa fa-laptop fa-5x"></i></div>
                 <div class="card-body">
@@ -137,7 +140,7 @@
                 </div>
               </div>
           </div>
-          <div  class="col-lg-4 col-md-6 col-sm-12 mt-5">
+          <div  class="col-lg-4 col-md-6 col-sm-12 mt-5" data-aos="fade-down">
             <div  class="card shadow rounded border-0" style="width: 100%; height: 400px; background-color:white;">
                 <div class="header p-2 mt-3 text-center"><i class="fa fa-cogs fa-5x" aria-hidden="true"></i></div>
                  <div class="card-body">
@@ -148,7 +151,7 @@
                 </div>
               </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-5" data-aos="fade-left">
             <div class="card shadow rounded border-0" style="width: 100%; height: 400px; background-color:white;">
                 <div class="header p-2 mt-3 text-center"><i class="fa fa-code fa-5x" aria-hidden="true"></i>
                 </div>
@@ -160,7 +163,7 @@
                 </div>
               </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-5" data-aos="fade-right">
             <div class="card shadow rounded border-0" style="width: 100%; height: 400px; background-color:white;">
                 <div class="header p-2 mt-3 text-center"><i class="fa fa-line-chart fa-5x"></i>
                 </div>
@@ -172,7 +175,7 @@
                 </div>
               </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-5" data-aos="fade-up-left">
             <div class="card shadow rounded border-0" style="width: 100%; height: 400px; background-color:white;">
                 <div class="header p-2 mt-3 text-center"><i class="fa fa-support fa-5x"></i></div>
                 <div class="card-body">
@@ -184,12 +187,11 @@
               </div>
           </div>
         </div>
-    </div>
   </section>
  <!--end services section -->
   <!--Professionl skills section -->
   <section id="skills">
-     <div class="col-lg-12 col-md-12 col-sm-12 skills" style=" width: auto; height: 300px; display:block;">
+     <div class="col-lg-12 col-md-12 col-sm-12 skills" data-aos="fade-up" style=" width: auto; height: 300px; display:block;">
       <p class="text-center" style="opacity: 0.02; font-size: 12vw; ">skills</p>
       <div class="col-lg-12 col-md-12 col-sm-12 skills_1">
         <span class="text-center fs-1" style="font-family: cursive;"> PROFESSIONALS SKILLS MY <br> TELANTS</span>
@@ -197,7 +199,7 @@
       </div>
     </div>
     <div class="container-fluid row mt-5">
-        <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-down-right">
                <label for="html/CSS" class="d-flex justify-content-between mb-1 ms-5">Html/CSS <span>95%</span></label>
             <div class="progress mb-4 ms-5">
                 <div class="progress-bar bg-success" id="html/CSS" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -215,7 +217,7 @@
                 <div class="progress-bar bg-success" id="javascript" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-down-left">
           <label for="Github" class="d-flex justify-content-between mb-1 ms-5">Github version<span>80%</span></label>
           <div class="progress mb-4 ms-5">
              <div class="progress-bar bg-success" id="Github" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -241,7 +243,7 @@
  <!-- -->
   <!--START RESUME SECTION-->
   <section id="resume" style="background-color: #f3eded;">
-    <div class="col-lg-12 col-md-12 col-sm-12 resume" style=" width: auto; height: 300px; display:block;">
+    <div class="col-lg-12 col-md-12 col-sm-12 resume" data-aos="fade-down" style=" width: auto; height: 300px; display:block;">
       <p class="text-center" style="opacity: 0.02; font-size: 12vw; ">RESUME</p>
       <div class="col-lg-12 col-md-12 col-sm-12 resume_1 ">
         <span class="text-center fs-1"> RESUME MY <br> STORY</span>
@@ -250,8 +252,9 @@
     </div>
     <div class="container-fluid mt-5">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <h1 class="taxt text-center">My Education</h1>
+            <div class="col-lg-6 col-md-6 col-sm-12"  data-aos="fade-up"
+            data-aos-duration="3000">
+              <h1 class="taxt text-center" data-aos="flip-left">My Education</h1>
                 <div class="accordion" id="accordionPanelsStayOpenExample">
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -260,7 +263,7 @@
                         </button>
                       </h2>
                       <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
-                        <div class="accordion-body bg-light border-primary border border-top-0 border-bottom-0 bg-light" >
+                        <div  data-aos="zoom-in-up" class="accordion-body bg-light border-primary border border-top-0 border-bottom-0 bg-light" >
                             <h3 class="text text-uppercase">BSc in enginnering</h3>
                             <p class="text fs-4">Computer science &amp; enginnering</p>
                             <span class="text fs-5">University Of Information Technology &amp; Science
@@ -280,7 +283,7 @@
                         </button>
                       </h2>
                       <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                        <div class="accordion-body border-success border border-top-0 border-bottom-0 bg-light">
+                        <div  data-aos="zoom-in-down" class="accordion-body border-success border border-top-0 border-bottom-0 bg-light">
                           <h3 class="text text-uppercase">Diploma in engineering</h3>
                           <p class="text fs-4">Computer Technology</p>
                           <span class="text fs-4">Sherpur Polytechnic Institute <br><address class="text fs-6">
@@ -300,7 +303,7 @@
                         </button>
                       </h2>
                       <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                        <div class="accordion-body border-success border border-top-0 bg-light">
+                        <div  data-aos="zoom-in-up" class="accordion-body border-success border border-top-0 bg-light">
                           <h3 class="text ">SSC</h3>
                           <p class="text fs-4">Science</p>
                           <span class="text fs-4">Kulkandi Shamsunnahar High School <br><address class="text fs-6">
@@ -315,8 +318,9 @@
                     </div>
                   </div>  
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12" >
-              <h1 class="taxt text-center"> My Experience </h1>
+            <div class="col-lg-6 col-md-6 col-sm-12"  data-aos="fade-up"
+            data-aos-duration="3000">
+              <h1 class="taxt text-center" data-aos="flip-right"> My Experience </h1>
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="flush-headingOne">
@@ -325,7 +329,7 @@
                         </button>
                       </h2>
                       <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
+                        <div class="accordion-body"  data-aos="zoom-in-up">
                           <h3 class="text text-uppercase">BSc in enginnering</h3>
                           <p class="text fs-4">Computer science &amp; enginnering</p>
                           <span class="text fs-5">University Of Information Technology &amp; Science
@@ -345,7 +349,7 @@
                         </button>
                       </h2>
                       <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
+                        <div class="accordion-body"  data-aos="zoom-in-down">
                           <h3 class="text text-uppercase">University project thessis</h3>
                           <span class="text fs-5">University Of Information Technology &amp; Science
                             <address class="text fs-6">Holding 190, Road 5, Block J, Baridhara, Maddha, Naya Nagar Rd, Dhaka 1212</address>
@@ -364,7 +368,7 @@
                         </button>
                       </h2>
                       <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingseven" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
+                        <div class="accordion-body"  data-aos="zoom-in-up">
                           <h3 class="text text-uppercase">BSc in enginnering</h3>
                           <p class="text fs-4">Computer science &amp; enginnering</p>
                           <span class="text fs-5">University Of Information Technology &amp; Science
@@ -384,7 +388,7 @@
                         </button>
                       </h2>
                       <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
+                        <div class="accordion-body"  data-aos="zoom-in-down">
                           <h3 class="text text-uppercase">Intenship </h3>
                           <span class="text fs-5">SPwave soft ltd
                             <address class="text fs-6">Holding 190, Road 5, Block J, Baridhara, Maddha, Naya Nagar Rd, Dhaka 1212</address>
@@ -403,7 +407,7 @@
                         </button>
                       </h2>
                       <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
+                        <div class="accordion-body"  data-aos="zoom-in-up">
                           <h3 class="text text-uppercase">Executive Officer</h3>
                           <span class="text fs-5">Gamca-Dhaka
                             <address class="text fs-6">Holding 190, Road 5, Block J, Baridhara, Maddha, Naya Nagar Rd, Dhaka 1212</address>
@@ -422,7 +426,7 @@
                         </button>
                       </h2>
                       <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
+                        <div class="accordion-body"  data-aos="zoom-in-down">
                           <h3 class="text text-uppercase">PLC intenship</h3>
                           <span class="text fs-5">University Of Information Technology &amp; Science
                             <address class="text fs-6">Holding 190, Road 5, Block J, Baridhara, Maddha, Naya Nagar Rd, Dhaka 1212</address>
@@ -441,7 +445,7 @@
                         </button>
                       </h2>
                       <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
+                        <div class="accordion-body"  data-aos="zoom-in-up">
                           <h3 class="text text-uppercase">Lead generation</h3>
                           <p class="text fs-4">Fiverr</p>
                           <p class="text muted fs-6">
@@ -463,7 +467,7 @@
  <!-- End resume section-->
   <!--Start portfolio section -->
 <section id="portfolio">
-    <div class="col-lg-12 col-md-12 col-sm-12 portfolio" style=" width: auto; height: 300px; display:block;">
+    <div  data-aos="fade-up" class="col-lg-12 col-md-12 col-sm-12 portfolio" style=" width: auto; height: 300px; display:block;">
           <p class="text-center" style="opacity: 0.02; font-size: 17vw; ">PORTFOLIO</p>
       <div class="col-lg-12 col-md-12 col-sm-12 portfolio_1">
           <span class="text-center" style="font-family: cursive;"> PORTFOLIO MY <br> CASES</span>
@@ -544,7 +548,7 @@
 
       <!-- Start testimonials section in portfolio -->
   <section id="testimonials">
-    <div class="col-lg-12 col-md-12 col-sm-12 testimonial" style=" width: auto; height: 300px; display:block;">
+    <div  data-aos="fade-up" class="col-lg-12 col-md-12 col-sm-12 testimonial" style=" width: auto; height: 300px; display:block;">
       <p class="text-center" style="opacity: 0.02; font-size: 12vw; ">reviews</p>
       <div class="col-lg-12 col-md-12 col-sm-12 testimonial_1 ">
         <span class="text-center fs-1 " style="font-family: cursive;">Client say ours <br> opinion</span>
@@ -581,7 +585,7 @@
                 </div>
          </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-5" data-aos="fade-up">
           <div  class="card h-100 shadow rounded border-0 bg-light">
               <div class="header p-2"><p class="card-text p-1 m-2"><i class="bi bi-quote"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quia 
                 aperiam praesentium itaque quasi maiores quam numquam doloremque eligendi ut. 
@@ -609,7 +613,7 @@
                 </div>
          </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-5" data-aos="fade-down">
           <div  class="card h-100 shadow rounded border-0 bg-light">
               <div class="header p-2"><p class="card-text p-1 m-2"><i class="bi bi-quote"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quia 
                 aperiam praesentium itaque quasi maiores quam numquam doloremque eligendi ut. 
@@ -637,7 +641,7 @@
                 </div>
          </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-5" data-aos="fade-left">
           <div  class="card h-100 shadow rounded border-0 bg-light">
               <div class="header p-2"><p class="card-text p-1 m-2"><i class="bi bi-quote"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quia 
                 aperiam praesentium itaque quasi maiores quam numquam doloremque eligendi ut. 
@@ -665,7 +669,7 @@
                 </div>
          </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-5" data-aos="fade-right">
           <div  class="card h-100 shadow rounded border-0 bg-light">
               <div class="header p-2"><p class="card-text p-1 m-2"><i class="bi bi-quote"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quia 
                 aperiam praesentium itaque quasi maiores quam numquam doloremque eligendi ut. 
@@ -700,7 +704,7 @@
 
     <!-- Start blog it's my personal blog page Start-->
     <section id="blogs" style="background-color: #eae6e6;">
-    <div class="col-lg-12 col-md-12 col-sm-12 blogs mt-5 p-4" style=" width: auto; height: 300px;">
+    <div  data-aos="fade-up" class="col-lg-12 col-md-12 col-sm-12 blogs mt-5 p-4" style=" width: auto; height: 300px;">
           <p class="text-center text-uppercase" style="opacity: 0.02; font-size: 12vw;">BLOGs</p>
       <div class="col-lg-12 col-md-12 col-sm-12 blogs_1 ">
           <span class="text-center text-uppercase fs-1" style="font-family: cursive;">BLogs my <br> article</span>
@@ -710,7 +714,8 @@
     <div class="container-xxl mt-5">   
       <div class="row">
         <div class="row g-4">
-          <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="col-lg-6 col-md-6 col-sm-6" data-aos="fade-left"
+          data-aos-duration="3000">
             <div class="card h-100 border-0 shadow">
               <img src="images/s_m_n.jpeg" style="height: 360px;" class="card-img-top" alt="...">
               <div class="card-body">
@@ -722,7 +727,8 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="col-lg-6 col-md-6 col-sm-6" data-aos="fade-right"
+          data-aos-duration="3000">
             <div class="card h-100 border-0 shadow">
               <img src="images/s_m_n.jpeg" style="height: 360px;" class="card-img-top" alt="...">
               <div class="card-body">
@@ -734,7 +740,8 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="col-lg-6 col-md-6 col-sm-6" data-aos="fade-left"
+          data-aos-duration="3000">
             <div class="card h-100 border-0 shadow">
               <img src="images/s_m_n.jpeg" style="height: 360px;" class="card-img-top" alt="...">
               <div class="card-body">
@@ -746,7 +753,8 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="col-lg-6 col-md-6 col-sm-6" data-aos="fade-right"
+          data-aos-duration="3000">
             <div class="card h-100 border-0 shadow">
               <img src="images/s_m_n.jpeg" style="height: 360px;" class="card-img-top" alt="...">
               <div class="card-body">
@@ -766,7 +774,7 @@
     <!--End blog it's my personal blog page-->
     <!--Start Contact section-->
     <section id="contact" >
-    <div class="col-lg-12 col-md-12 col-sm-12 contact mt-5 p-4">
+    <div data-aos="fade-up" class="col-lg-12 col-md-12 col-sm-12 contact mt-5 p-4">
             <p class="text-center text-uppercase" style="opacity: 0.02; font-size: 12vw;">COntact me</p>
         <div class="col-lg-12 col-md-12 col-sm-12 contact_1 ">
             <span class="text-center text-uppercase fs-1" style="font-family: cursive;">Get in Touch</span>
@@ -775,18 +783,21 @@
     </div>
    <div class="container-xxl mt-5 p-4 section-contact">
        <div class="row sec-contact">
-        <div class="col-lg-4 col-md-12 col-sm-12 location" id="contact_info">
+        <div class="col-lg-4 col-md-12 col-sm-12 location" data-aos="fade-left"
+        data-aos-duration="3000">
             <span class="bi bi-geo fa-5x"></span>
             <h1 class="text-center">Visit in location</h1>     
             <h6 class="text-center">Jamalpur, dhaka, bangladesh</h6>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 location">
+        <div class="col-lg-4 col-md-12 col-sm-12 location" data-aos="fade-up"
+        data-aos-duration="3000">
             <span class="bi bi-phone fa-5x"></span>
             <h1 class="text-center">Call me</h1>
             <h6 class="text-center">+8801725-874024</h6>
           
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 location">
+        <div class="col-lg-4 col-md-12 col-sm-12 location" data-aos="fade-right"
+        data-aos-duration="3000">
             <span class="bi bi-envelope-open fa-5x"></span>
             <h1 class="text-center">Email</h1>
             <h6 class="text-center">nasir24k@gmail.com</h6>
@@ -794,10 +805,12 @@
         </div>
        </div>
        <div class="row sub-contact">
-           <div class="col-lg-6 col-md-12 col-sm-12 maps">
+           <div class="col-lg-6 col-md-12 col-sm-12 maps" data-aos="fade-up"
+           data-aos-duration="3000">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.3704441887126!2d90.38979081402586!3d23.876479289867174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c415dabf6e4d%3A0xb9fa0b309dbe4785!2sUttara%20Sector%2011%20Park!5e0!3m2!1sen!2sbd!4v1675608034273!5m2!1sen!2sbd"></iframe>
            </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 contact-form">
+        <div class="col-lg-6 col-md-12 col-sm-12 contact-form" data-aos="fade-up"
+        data-aos-duration="3000">
             <fieldset class="border p-4">
                <legend  class="float-none w-auto">Write a Message</legend> 
                 <div class="row">
@@ -826,15 +839,15 @@
 
   <!--Start about section -->
   <section id="about" style="background-color: #eee8e8;">
-  <div class="col-lg-12 col-md-12 col-sm-12 about mt-5 p-4">
+  <div  data-aos="fade-up" class="col-lg-12 col-md-12 col-sm-12 about mt-5 p-4">
     <p class="text-center text-uppercase" style="opacity: 0.02; font-size: 12vw;">about</p>
-<div class="col-lg-12 col-md-12 col-sm-12 about_1">
+  <div class="col-lg-12 col-md-12 col-sm-12 about_1">
     <span class="text-center text-uppercase fs-1" style="font-family: cursive;">Do Know about more <br> details</span>
     <p class="text  text-center fs-6">Lore dantium quaerat quis nobis et!</p>
-</div>
+  </div>
 </div>
 <div class="container-fluid row">
-  <div class="col-lg-8 col-md-12 col-sm-12">
+  <div class="col-lg-8 col-md-12 col-sm-12" data-aos="zoom-out-up">
       <p class="text fs-2 fw-bold">I'm a passionate Software Engineer 
         expertise with a visual Front-end &amp; back-end developer.</p>
       <span class="text pt-2 m-2 fs-6 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
@@ -849,7 +862,9 @@
         <hr>
       </span>
   </div>
-  <div class="col-lg-4 col-md-12 col-sm-12 mt-2">
+  <div class="col-lg-4 col-md-12 col-sm-12 mt-2" data-aos="flip-left"
+  data-aos-easing="ease-out-cubic"
+  data-aos-duration="2000">
        <img src="images/beauty.jpg" class="img-fluid rounded  shadow object-fit w-100" >   
   </div>
   <address class="col-lg-8 col-md-12 col-sm-12 mt-3" >
@@ -921,6 +936,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!--asos library js-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!--asos library js-->
       <script>
         $(document).ready(function(){
         
